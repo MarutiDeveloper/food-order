@@ -1,0 +1,147 @@
+/* 
+    Author: Tejaskumar Joshi;
+    Theme: Food Order Website Admin;
+    version: 1.0;
+    Copyrights :2024-2025;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  */
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+    border-style: groove;
+    text-align: center;
+}
+
+.tbl-30{
+    width: 30%;
+    border-style: groove;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: center;
+}
+table tr td{
+    padding: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: darkgray;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-danger{
+    background-color: #e84118;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: #c23616;
+}
+
+.success{
+    color: #4cd137;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.error{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+/*  CSS for Menu */
+
+.menu{
+    border-bottom: 1px solid grey;
+}
+
+.menu ul{
+    list-style-type:none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+.menu ul li a:hover{
+    color: black;
+}
+/*  CSS for Main-content */
+.main-content{ 
+    background-color:beige;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    
+}
+/*  CSS for footer */
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+
+/* css for login */
+.login{
+    width: 20%;
+    border: 1px solid grey;
+    margin: 10% auto;
+    padding: 2%;
+}
